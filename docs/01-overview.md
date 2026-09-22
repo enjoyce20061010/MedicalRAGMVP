@@ -23,3 +23,24 @@ RAG POC 以資料匯入、向量檢索與語言模型為核心，提供健康紀
 - 維護人員：依架構與流程文件定位相關服務。
 
 本版聚焦系統概念與文件交接，不包含程式實作與環境操作指令。
+
+## 交付資料實際畫面
+
+以下為 2026-02-08 交付紀錄所附的原始截圖，用於對照介面與工作流。畫面保留當時版本，並非本次重新操作或執行結果；配置細節可能與概念流程圖不同。
+
+### iPulse 登入入口
+
+![iPulse 登入入口](../assets/screenshots/portal-login.png)
+
+交付時的 POC 登入頁，顯示電子郵件、密碼輸入及登入按鈕。
+
+[放大查看](../assets/screenshots/portal-login.png) · 原始檔：`4.2_iPulse_Home.png`
+
+### iPulse AI 助手
+
+![iPulse AI 助手](../assets/screenshots/portal-assistant.png)
+
+顯示 USER 001／002／003 測試使用者入口及 AI 助手歡迎畫面。
+
+[放大查看](../assets/screenshots/portal-assistant.png) · 原始檔：`4.2_iPulse_Pass.png`
+
