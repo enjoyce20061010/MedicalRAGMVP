@@ -1,0 +1,8 @@
+flowchart TD
+    U["使用者：電腦／手機"] --> UI["介面層：Portal／獨立網頁"]
+    UI --> API["服務層：Nginx／FastAPI"]
+    API --> W["流程層：n8n"]
+    FORM["檔案表單入口"] --> W
+    W --> L["語言模型"]
+    W --> E["Embedding 向量化"]
+    W --> DB["Supabase／PostgreSQL"]

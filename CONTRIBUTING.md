@@ -5,7 +5,7 @@
 ## 修改流程
 
 1. 從主分支建立本次文件修改分支。
-2. 更新對應章節與 Mermaid 圖表。
+2. 更新對應章節及 diagram-sources 中的 Mermaid 原稿，並重新產生 assets/diagrams 中對應的 PNG 圖片。
 3. 檢查 README 導覽、圖表呈現與文件用語。
 4. 在 CHANGELOG 記錄本次變更。
 5. 建立 Pull Request，由專案窗口審閱後合併。

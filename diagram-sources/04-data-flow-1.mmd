@@ -1,0 +1,7 @@
+flowchart LR
+    J["JSON 上傳"] --> A["API／Webhook"]
+    A --> C["欄位與資料整理"]
+    F["CSV／PDF 表單"] --> P["依格式解析內容"]
+    P --> C
+    C --> E["Embedding"]
+    E --> V["向量資料儲存"]

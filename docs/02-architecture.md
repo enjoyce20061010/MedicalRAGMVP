@@ -4,29 +4,17 @@
 
 ## 功能分層
 
-```mermaid
-flowchart TD
-    U["使用者：電腦／手機"] --> UI["介面層：Portal／獨立網頁"]
-    UI --> API["服務層：Nginx／FastAPI"]
-    API --> W["流程層：n8n"]
-    FORM["檔案表單入口"] --> W
-    W --> L["語言模型"]
-    W --> E["Embedding 向量化"]
-    W --> DB["Supabase／PostgreSQL"]
-```
+![流程圖 1](../assets/diagrams/02-architecture-1.png)
+
+[放大查看](../assets/diagrams/02-architecture-1.png) · [圖表原稿](../diagram-sources/02-architecture-1.mmd)
 
 此圖為功能分工示意；表單與 API 是不同入口。
 
 ## 服務呼叫關係
 
-```mermaid
-flowchart LR
-    B["前端請求"] --> N["Nginx"]
-    N --> A["FastAPI"]
-    A --> P["內部轉發層"]
-    P --> W["n8n 工作流"]
-    W --> M["模型與資料服務"]
-```
+![流程圖 2](../assets/diagrams/02-architecture-2.png)
+
+[放大查看](../assets/diagrams/02-architecture-2.png) · [圖表原稿](../diagram-sources/02-architecture-2.mmd)
 
 實體部署涉及 Windows、WSL 與 Docker。此對外說明以服務關係呈現，環境位址及連接埠由部署文件另行管理。
 

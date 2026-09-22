@@ -1,0 +1,6 @@
+flowchart LR
+    B["前端請求"] --> N["Nginx"]
+    N --> A["FastAPI"]
+    A --> P["內部轉發層"]
+    P --> W["n8n 工作流"]
+    W --> M["模型與資料服務"]
