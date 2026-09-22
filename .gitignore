@@ -1,0 +1,8 @@
+# Local system files
+.DS_Store
+Thumbs.db
+# Local environment files
+.env
+.env.*
+*.pem
+*.key
